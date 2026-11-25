@@ -1,0 +1,30 @@
+
+# Environment and API secrets
+.env
+.env.*
+!.env.example
+
+# Python virtual environment
+venv/
+.venv/
+env/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# IDE files
+.vscode/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+app copy.py
+agents/agent_manager copy.py
+database/*backup*.db
+# Database files
+*.db
+*.sqlite
+*.sqlite3
